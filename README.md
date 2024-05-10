@@ -5,5 +5,6 @@
 
 ---
 ### java
-- [클래스, 객체, 인스턴스](class)
-- [기본형과 참조형](type)
+- [클래스, 객체, 인스턴스](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/class.md)
+- [기본형과 참조형](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/type.md)
+- [객체지향 프로그래밍과 절차지향 프로그래밍](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/oop.md)
