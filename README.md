@@ -11,3 +11,6 @@
 - [생성자](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/constructor.md)
 - [패키지](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/package.md)
 - [접근제어자](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/access_modifier.md)
+
+### virtualization
+- [가상화 기초 지식](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/base.md)
