@@ -14,3 +14,5 @@
 
 ### virtualization
 - [가상화 기초 지식](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/base.md)
+- [서버 가상화](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/server-virtualization.md)
+
