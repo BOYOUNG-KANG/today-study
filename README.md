@@ -15,6 +15,8 @@
 - [가상화 기초 지식](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/base.md)
 - [서버 가상화](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/server-virtualization.md)
 - [네트워크 가상화](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/network-virtualization.md)
+
 ### docker
 - [도커](https://github.com/BOYOUNG-KANG/today-study/blob/main/docker/base.md)
 - [도커 명령어](https://github.com/BOYOUNG-KANG/today-study/blob/main/docker/command.md)
+- [볼륨, 네임스페이스, 컨트롤 그룹, 차분 관리](https://github.com/BOYOUNG-KANG/today-study/blob/main/docker/base2.md)
