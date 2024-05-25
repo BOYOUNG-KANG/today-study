@@ -25,3 +25,6 @@
 - [도커](https://github.com/BOYOUNG-KANG/today-study/blob/main/docker/base.md)
 - [도커 명령어](https://github.com/BOYOUNG-KANG/today-study/blob/main/docker/command.md)
 - [볼륨, 네임스페이스, 컨트롤 그룹, 차분 관리](https://github.com/BOYOUNG-KANG/today-study/blob/main/docker/base2.md)
+
+### k8s
+- [쿠버네티스, 쿠버네티스 클러스터, 파드](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/base.md)
