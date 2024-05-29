@@ -48,3 +48,25 @@ public static void main(String[] args) {
     - 반면 다운 캐스팅은 부모 인스턴스 생성 시, 부모 공간만 생긴 상태에서 자식으로 참조값은 변경하기 때문에 문제가 발생할 수 있다.
       - 위의 코드에서 자식 메서드를 실행할 때 런타임 에러가 발생했다.
 
+### instanceof
+- 다형성에서 다형성 참조는 다양한 자식을 대상으로 참조할 수 있기 때문에 이중 어떤 자식을 참조하는지 직관적으로 확인하고 싶을때 사용한다.
+- 예를 들어 다운캐스팅을 실행하기 전에 해당 변수가 어떤 인스턴스인지 instanceof를 이용해 확인이 가능하다.
+```
+public static void main(String[] arg) {
+	Parent parent1 = new Parent();
+	call(parent1);
+
+	Parent parent2 = new Child();
+	call(parent2); //Child 인스턴스 맞음
+}
+
+private static void call(Parent parent) {
+	parent.parentMethod();
+	
+	if (parent instanceof Child) {
+		System.out.println("Child 인스턴스 맞음");
+		Child child = (Child) parent;
+		child.childMethod();
+	}
+}
+```
