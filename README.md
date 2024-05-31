@@ -16,6 +16,7 @@
 - [inheritance](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/inheritance.md)
 - [polymorphism](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/polymorphism.md)
 - [abstract](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/abstract.md)
+- [interface](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/interface.md)
 
 
 ### virtualization
