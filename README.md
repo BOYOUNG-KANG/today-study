@@ -18,7 +18,6 @@
 - [abstract](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/abstract.md)
 - [interface](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/interface.md)
 
-
 ### virtualization
 - [가상화 기초 지식](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/base.md)
 - [서버 가상화](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/server-virtualization.md)
@@ -33,3 +32,6 @@
 - [쿠버네티스, 쿠버네티스 클러스터, 파드](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/base.md)
 - [레플리카셋, 디플로이먼트, 플라넬](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/base2.md)
 - [명령어](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/command.md)
+
+### aws
+- [클라우드 컴퓨팅](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/base.md)
