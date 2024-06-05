@@ -37,3 +37,5 @@
 - [클라우드 컴퓨팅](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/base.md)
 - [AWS 컴퓨팅 서비스, EC2](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/compute.md)
 - [AWS 네트워킹 서비스, VPC](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/network.md)
+- [AWS 부하분산 서비스, ELB](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/loadbalance.md)
+
