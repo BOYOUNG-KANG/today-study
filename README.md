@@ -39,4 +39,5 @@
 - [AWS 네트워킹 서비스, VPC](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/network.md)
 - [AWS 부하분산 서비스, ELB](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/loadbalance.md)
 - [AWS IAM 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/iam.md)
+- [AWS 고급 네트워킹 서비스, Route 53, CDN, CloudFront](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/network2.md)
 
