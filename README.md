@@ -34,12 +34,12 @@
 - [명령어](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/command.md)
 
 ### aws
-- [클라우드 컴퓨팅](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/base.md)
-- [AWS 컴퓨팅 서비스, EC2](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/compute.md)
-- [AWS 네트워킹 서비스, VPC](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/network.md)
-- [AWS 부하분산 서비스, ELB](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/loadbalance.md)
-- [AWS IAM 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/iam.md)
-- [AWS 고급 네트워킹 서비스, Route 53, CDN, CloudFront](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/network2.md)
-- [AWS 오토 스케일링 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/scale.md)
-- [AWS 스토리지 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/k8s/storage.md)
+- [클라우드 컴퓨팅](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/base.md)
+- [AWS 컴퓨팅 서비스, EC2](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/compute.md)
+- [AWS 네트워킹 서비스, VPC](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/network.md)
+- [AWS 부하분산 서비스, ELB](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/loadbalance.md)
+- [AWS IAM 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/iam.md)
+- [AWS 고급 네트워킹 서비스, Route 53, CDN, CloudFront](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/network2.md)
+- [AWS 오토 스케일링 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/scale.md)
+- [AWS 스토리지 서비스](https://github.com/BOYOUNG-KANG/today-study/blob/main/aws/storage.md)
 
