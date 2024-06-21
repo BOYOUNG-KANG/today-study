@@ -8,3 +8,15 @@
 - `ApplicationContext`는 인터페이스
 - `AnnotationConfigApplicationContext` 등의 `ApplicationContext` 구현체가 있다.
 
+### 스프링 컨테이너 생성 과정
+
+1. 스프링 컨테이너 생성
+   - new AnnotationConfigApplicationContext(AppConfig.class)
+   - 스프링 빈 저장소를 포함한 스프링 컨테이너를 생성한다.
+   - 스프링 컨테이너를 생성할때 구성 정보(AppConfig.class)를 지정해야 한다.
+2. 스프링 빈 등록
+   - 스프링 컨테이너는 구성 정보(AppConfig.class)를 확인해 스프링 빈을 등록한다.
+     *단 빈의 이름은 중복되어서 안된다. 이 경우 설정 상 오류가 발생할 수 있다.
+3. 스프링 빈 의존관계 주입
+   - 스프링 컨테이너는 설정 정보를 참고해서 의존관계를 주입한다.
+   - 따라서 스프링 빈을 등록하면 의존관계 주입까지 한번에 처리된다.
