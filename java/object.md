@@ -69,3 +69,23 @@
 
 ### System.out.println()
 `System.out.println()` 메서드는 Object와 toString을 사용하기 때문에, `System.out.println()`을 사용하여 세상의 모든 객체 정보를 편리하게 출력할 수 있다.
+
+### equals()
+- Object.equals()
+- 동일성(identity) : `==` 연산자를 사용하여 두 객체의 참조가 동일한 객체를 가리키고 있는지 확인
+- 동등성(equality) : `equals()` 메서드를 사용해 두 객체가 논리적으로 동등한지 확인
+
+Object.equals()는 동일성 비교를 기본으로 제공하기 때문에 동등성 비교를 사용하려면 equals 메서드를 재정의해야 한다. (ex User의 id가 같다면 같은 사람으로 취급해주기 위한 equals 재정의)
+```java
+User user1 = new User("id-001");
+User user2 = new User("id-001");
+
+System.out.println("identity = ", (user1 == user2)); //false
+System.out.println("equality = ", user1.equals(user2)); //false
+```
+```java
+# equals() 구현 코드
+public boolean equals(Object obj){
+	return (this == obj);
+}
+```
