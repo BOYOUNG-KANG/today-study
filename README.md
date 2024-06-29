@@ -18,7 +18,8 @@
 - [abstract](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/abstract.md)
 - [interface](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/interface.md)
 - [object](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/object.md)
-
+- [불변 객체](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/immutable_object.md)
+- [String 클래스](https://github.com/BOYOUNG-KANG/today-study/blob/main/java/string.md)
 
 ### virtualization
 - [가상화 기초 지식](https://github.com/BOYOUNG-KANG/today-study/blob/main/virtualization/base.md)
