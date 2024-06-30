@@ -32,5 +32,26 @@
 - StringBuilder는 String의 가변 버전
   - 내부 값 변경 가능
   - 성능과 메모리 사용 면에서 가변이 더 효율적
-- 문자열 변경이 많을 때 StringBuilder을 사용하고 그렇지 않을 때 String을 사용하면 된다고 하지만 둘을 번갈아 사용하는 과정이 꽤 번거로울텐데 이 번거로움을 감수하면서도 성능 향상이 유의미한지 궁금하다.
-  - StringBuilder를 사용하면서 성능을 향상시키는 것 보다 다른 부분에서 성능을 향상시키는 것이 좀더 유의미하지 않을까?
+
+### String 최적화
+- 문자열을 합칠 때, 대부분 경우 최적화가 되므로 + 연산을 사용하면 된다.
+- 그럼에도 불구하고 반복문이나 조건문을 사용하는 경우는 StringBuilder를 사용하는 것이 더 좋다.
+
+### 메서드 체이닝 method chaining
+- 자기 자신의 참조값을 반환하는 메서드
+- 이 메서드를 사용하면 반환된 참조값을 즉시 사용해서 바로 메서드 호출 가능 => 메서드 체이닝
+- 자기 사진의 메서드를 계속 호출해서 연결할 수 있다.
+- 메서드 체이닝이 가능한 이유는 자신의 참조값을 반환하기 때문
+  참조값에 `.`을 찍어서 자신의 메서드 호출 가능
+    ```java
+    ValueAdder adder = new ValueAdder();
+    int result = adder.add(1).add(2).add(3).getValue();
+    System.out.println("result = " + result); //6
+    ```
+- StringBuilder는 메서드 체이닝 기법을 제공
+    ```java
+    public StringBuilder append(String str) {
+    	super.append(str);
+    	return this;
+    }
+    ```
