@@ -14,3 +14,15 @@
 - Integer.valueOf() 사용
   (자주 사용하는 -128~127 범위 Integer 클래스를 미리 생성하는 방식으로 성능 최적화)
 - `intValue` : wrapper 클래스에 있는 기본형 값을 다시 꺼내는 메서드
+
+## 오토 박싱 (Autoboxing)
+- 자바 1.5부터 오토 박싱과 오토 언박싱 기능 지원
+- auto boxing : primitive type → wrapper class
+- auto unboxing : wrapper class → primitive type
+    ```java
+    int value = 7;
+    Integer boxedValue = value; //auto boxing
+    int unboxedValue = boxedValue //auto unboxing
+    ```
+- wrapper 클래스의 연산이 기본형 타입 연산보다 시간이 더 많이 걸린다.
+
